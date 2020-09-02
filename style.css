@@ -6,3 +6,17 @@ label {
 h3 {
     font-family: PlayfairDisplay;
 }
+button { 
+    font-family: Inter;
+    width:200px;
+    font-size:14px;
+}
+
+@media screen and (max-width:500px) {
+    .container {
+        align-content: space-around;
+    }
+    button {
+        width:100px;
+    }
+}
